@@ -1,0 +1,268 @@
+
+* { 
+    margin: 0px; 
+    
+}
+
+
+header  { 
+    background-color: #E91E63; /**#ECEFF1; **/
+    color: #E91E63; 
+    width: 100%; 
+    display: block; 
+    position: fixed ; 
+    margin-left: 0px; 
+    padding: 15px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    
+header h1 { 
+    float: left; 
+}
+
+header  li { 
+    display: block; 
+    text-align: center; 
+    float : right; 
+    padding: 10px; 
+    margin-right: 20px; 
+    background-color: #fff; 
+    color: black; 
+    border-width: 0px; 
+    border-radius: 2px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .1s ease-in-out;
+}
+
+header li:hover { 
+    transform: scale(1.1);
+    background-color: #E91E63; 
+    color: white; 
+}
+
+header a { 
+    text-decoration: none; 
+    color: black; 
+}
+
+
+body {
+	color: #333;
+	font: 14px Sans-Serif;
+	padding-top: 0px;
+	background: #eee;
+    
+}
+
+div.container-body { 
+    padding-top:100px;
+    display:block; 
+    border-color: white; 
+    border-bottom: 10px; 
+    align-content: center;     
+    min-height: 200px; 
+    padding:5%
+
+}
+
+div.container-body h1, h2, p { 
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+
+
+#one { 
+    background-image: url(two.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    background-position: center; 
+    background-color: #F5F5F5; 
+    background-size: cover; 
+    color: #fff; 
+    height: 100vh; 
+}
+
+
+
+#one h1 { 
+    padding-top: 40%; 
+    font-weight: 200; 
+    font-size: 80px; 
+    transition: all .2s ease-in-out;
+
+}
+
+#one h1:hover { 
+    font-size:90px; 
+    color:#E91E63 ; 
+}
+#one h2 { 
+    font-size: 30px; 
+    padding-top: 10px; 
+
+}
+
+
+
+#two { 
+    text-align: left;   
+    color: #E91E63;    
+    height: 60vh; 
+    font-size: 30px; 
+}
+#two h2 { 
+    text-align: left; 
+}
+#two h3 { 
+    padding-bottom: 0px;
+    padding-top: 10px; 
+    text-align: left; 
+    padding-left: 10%; 
+}
+
+
+#three { 
+    background-color: #E0E0E0; 
+    text-align: center; 
+    height: 50vh; 
+    vertical-align: middle; 
+    font-size: 18px; 
+}
+#three .icon { 
+    width: 20%; 
+    padding: 20%; 
+}
+
+
+#four { 
+    
+    color: black; 
+    height: 50vh; 
+}
+#four img { 
+    display: inline-block; 
+    
+}
+
+
+div.icontwo { 
+    display: inline-block; 
+    color: white; 
+    width: 25%; 
+    
+    background-color: #546E7A; 
+    text-align: center; 
+    padding: 10px; 
+    border-width: 0px; 
+    border-radius: 4px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    transition: all .2s ease-in-out;
+    vertical-align: middle; 
+    
+}
+
+div.icontwo:hover { 
+   transform: scale(1.1);
+   background-color: #E91E63; 
+}
+
+
+
+
+
+
+
+
+div.icon { 
+    display: inline-block; 
+    color: white; 
+    width: 25%; 
+    height: 70%;  
+    background-color: #546E7A; 
+    text-align: center; 
+    padding: 10px; 
+    border-width: 0px; 
+    border-radius: 4px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    transition: all .2s ease-in-out;
+    vertical-align: middle; 
+    
+}
+
+div.icon:hover { 
+   transform: scale(1.1);
+   background-color: #E91E63; 
+}
+
+
+
+
+
+
+
+
+
+
+#purchase { 
+    background-image: url(wandx.png); 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    background-position: center; 
+    background-color: #F5F5F5; 
+    background-size: cover; 
+    display:none; 
+}
+
+#purchase h2 { 
+    font-size: 35px; 
+
+}
+
+
+
+footer { 
+    height: 30px; 
+    background-color: #212121; 
+    color: white; 
+    padding: 15px; 
+    text-align: center; 
+    bottom: 0px; 
+    width: 100%; 
+    margin-left: 0px; 
+}
+
+
+#sgone { 
+    background-image: url(two.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    background-position: center; 
+    background-color: #F5F5F5; 
+    background-size: cover; 
+    color: #fff; 
+    height: 60vh; 
+    display:none; 
+}
+
+
+#sgone h1 { 
+    padding-top: 40%; 
+    font-weight: 200; 
+    font-size: 80px; 
+    transition: all .2s ease-in-out;
+
+}
+
+#sgone h1:hover { 
+    font-size:90px; 
+    color:#E91E63 ; 
+}
+
+@media only screen and (max-width: 550px) {
+    header li {
+    } 
+} 
